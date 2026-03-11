@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EcoDescarte — Descarte Consciente</title>
 
-  <!-- Fontes -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-  <!-- CSS -->
+  
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-  <!-- ══════════ SPLASH ══════════ -->
+
   <div class="splash" id="splash">
     <div class="splash-logo">Eco<span>Descarte</span></div>
     <div class="splash-sub">Descarte Consciente</div>
@@ -28,10 +28,8 @@
     </div>
   </div>
 
-  <!-- ══════════ APP WRAPPER ══════════ -->
   <div class="app-wrapper">
 
-    <!-- ══════════ SIDEBAR (desktop only, hidden via CSS on mobile) ══════════ -->
     <aside class="sidebar">
       <div class="sidebar-logo">Eco<span>Descarte</span></div>
       <nav class="sidebar-nav">
@@ -61,10 +59,8 @@
       </div>
     </aside>
 
-    <!-- ══════════ MAIN CONTENT ══════════ -->
     <div class="app-shell" id="app">
 
-      <!-- PAGE: HOME -->
       <div class="page active" id="page-home">
         <div class="hero-section">
           <p class="hero-greeting">Olá, cidadão 👋</p>
@@ -117,7 +113,6 @@
         </div>
       </div>
 
-      <!-- PAGE: SEARCH -->
       <div class="page" id="page-search">
         <div class="page-header"><h2>Onde Descartar?</h2></div>
         <div class="px-20 mb-16">
@@ -130,7 +125,6 @@
         <div class="px-20" id="searchResults"></div>
       </div>
 
-      <!-- PAGE: BIN DETAIL -->
       <div class="page" id="page-binDetail">
         <div class="page-header">
           <button class="btn-back" onclick="goBack()">
@@ -141,7 +135,6 @@
         <div class="px-20" id="binDetailContent"></div>
       </div>
 
-      <!-- PAGE: ECOPONTOS -->
       <div class="page" id="page-points">
         <div class="page-header"><h2>Ecopontos</h2></div>
         <div class="map-placeholder">
@@ -153,25 +146,21 @@
         <div class="px-20" id="pointsList"></div>
       </div>
 
-      <!-- PAGE: COLETA -->
       <div class="page" id="page-collect">
         <div class="page-header"><h2>Solicitar Coleta</h2></div>
         <div class="px-20" id="collectContent"></div>
       </div>
 
-      <!-- PAGE: DENÚNCIA -->
       <div class="page" id="page-report">
         <div class="page-header"><h2>Registrar Denúncia</h2></div>
         <div class="px-20" id="reportContent"></div>
       </div>
 
-      <!-- PAGE: PERFIL -->
       <div class="page" id="page-profile">
         <div class="page-header"><h2>Meu Perfil</h2></div>
         <div id="profileContent"></div>
       </div>
 
-      <!-- BOTTOM NAV (mobile only, hidden via CSS on desktop) -->
       <nav class="bottom-nav">
         <button class="nav-item active" data-page="home" onclick="navigateTo('home')">
           <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
@@ -198,7 +187,6 @@
     </div>
   </div>
 
-  <!-- JS -->
   <script src="js/app.js"></script>
 
 </body>
